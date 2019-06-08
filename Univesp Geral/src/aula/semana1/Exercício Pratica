@@ -1,0 +1,105 @@
+EXERCÍCIOS DE APOIO
+Apenas para praticar. Não vale nota.
+
+ 
+
+Após instalar o java em seu computador e potencialmente algum IDE, abra o editor de texto ou o IDE e digite o seguinte programa:
+ class Teste {
+
+public static void main(String[] args) { 
+
+           System.out.println("Testando...");
+
+} 
+
+}
+
+
+Salve o programa. Como deve ser o nome do arquivo?
+	Teste
+
+Compile e execute o programa. O que acontece?
+	O programa retorna Testando...
+
+Em cada um dos itens a seguir, faça a modificação indicada no programa do exercício anterior:
+Faça o programa imprimir a mensagem “Mundo, mundo, vasto mundo.”.
+
+
+Faça o programa imprimir a seguinte mensagem, com as quebras de linha correspondentes:
+“Mundo mundo vasto mundo,
+se eu me chamasse Raimundo
+seria uma rima, não seria uma solução.”
+
+ class Teste {
+
+public static void main(String[] args) { 
+
+           System.out.println("Mundo mundo vasto mundo, \ns e eu me chamasse Raimundo \n seria uma rima, não seria uma solução.");
+
+} 
+
+}		
+
+
+
+Após instalar o java em seu computador e potencialmente algum IDE, abra o editor de texto ou o IDE e digite o seguinte programa:
+ class Mensageiro {
+
+public static void main(String[] args) { 
+
+           System.out.println("Primeira mensagem");
+
+          System.out.println("Segunda mensagem");
+
+} 
+
+}
+
+Salve o programa. Como deve ser o nome do arquivo?
+
+
+Compile e execute o programa. O que acontece?
+
+
+Substitua o “out.println” por “System.out.print” no seu programa. Compile e execute novamente. O que acontece de diferente?
+
+
+Com base no que você observou e na documentação dos métodos “println” e “print”, qual a diferença entre esses métodos?
+
+
+Vamos testar alguns erros comuns de programação. Para isso, escreva os seguintes códigos e tente compilá-los. Veja a mensagem de erro dada pelo compilador e identifique qual foi o erro com o código.
+Qual o erro no código abaixo?
+class Erro {
+
+public static void main(String[] args) { 
+
+      System.out.println("Ola mundo!")
+
+} 
+
+}
+
+
+Qual o erro no código abaixo?
+ class Erro {
+
+public static void main(String[] args) { 
+
+      System.out.println(Oh, mundo cruel!);
+
+} 
+
+}
+
+
+Qual o erro no código abaixo?
+ class Erro {
+
+public static void main(String[] args) { 
+
+      System.out.println "Mensagem ao mundo";
+
+} 
+
+}
+

@@ -1,0 +1,37 @@
+2. Quais instruções Java a seguir contêm variáveis cujos valores são modificados?
+a) p = i + j + k + 7;
+b) out.println(“variables whose values are modified”);
+c) out.println(“a = 5”);
+d) value = input.nextInt();
+
+Resposta: a
+
+3. Dado que y=ax^3+7, quais das seguintes alternativas são instruções Java corretas para esta equação?
+a) y = a * x * x * x + 7;
+b) y = a * x * x * (x + 7);
+c) y = (a * x) * x * (x + 7);
+d) y = (a * x) * x * x + 7;
+e) y = a * (x * x * x) + 7;
+f) y = a * x * (x * x + 7);
+
+Resposta, itens: a, d, e
+
+4. Mostre, passo a passo, a ordem de avaliação dos operadores em cada uma das seguintes instruções Java:
+a) x = 7 + 3 * 6 / 2 - 1;
+
+* e / têm maior precedência, mas a avaliação é feita da esquerda para a direita. 
+Portanto: 7 + 3 * 6 / 2 – 1 → 7 + 18/2 – 1 
+→ 7 + 9 – 1 → 16 – 1 → 15
+
+b) x = 2 % 2 + 2 * 2 - 2 / 2;
+
+*, / e % têm maior precedência, mas a avaliação é feita da esquerda para a direita. 
+Portanto: 2 % 2 + 2 * 2 - 2 / 2 → 0 + 2 * 2 - 2 / 2 
+→ 0 + 4 - 2 / 2 → 0 + 4 - 2 / 2 → 0 + 4 – 1 → 4 – 1 → 3
+
+c) x = (3 * 9 * (3 + (9 * 3 / (3))));
+
+Aqui é importante notar os parênteses:
+(3 9 (3 + (9 3 / (3)))) => (3 9 (3 + (9 3 / 3))) => (3 9 
+(3 + (27 / 3))) => (3 9 (3 + (9))) => (3 9 (3 + 9)) => (3 9 
+(12)) => (3 9 12) => (27 * 12) => 324
