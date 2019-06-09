@@ -1,5 +1,11 @@
 package aula.semana3;
 
+/*
+ * Escreva um método chamado media que receba quatro variáveis do tipo double chamadas v1, v2, v3 e v4 e imprima: 
+ * “Media maior que zero.”, caso a média dos quatro valores seja maior que zero, ou 
+ * “Media menor ou igual a zero.”, caso contrário.
+ */
+
 import java.util.Scanner;
 
 public class Exercicio05 {
