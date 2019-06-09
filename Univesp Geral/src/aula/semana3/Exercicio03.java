@@ -2,6 +2,11 @@ package aula.semana3;
 
 import java.util.Scanner;
 
+/*
+ * 3) Complete o código abaixo do método compara que recebe dois números inteiros, n1 e n2, e então diga se n1 é maior, menor ou igual a n2.
+ * 
+ */
+
 public class Exercicio03 {
 
 	static void compara(int n1, int n2) {
